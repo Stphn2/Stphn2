@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1% 20px ;
+    width: 100%;
+    position: fixed;
+    backdrop-filter: blur(4px);
+}
+
+nav ul {
+    list-style: none;
+}
+nav ul li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+nav ul li a {
+    color: #674636;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+nav img{
+    height: 40px;
+    border-radius: 50px;
+}
+
+body {    
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.1)0%, rgba(0, 0, 0, 0.1)100%), url(images/background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    overflow-x: hidden;
+    width: 400vw;
+    height: 100%;
+    color: #674636;
+}
+
+span {
+    color: #16423C;
+    font-weight: 600;
+    font-size: 110%;
+}
+
+#sub-title {
+    color: #ECDFCC;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+section {
+    margin: 100px 50px 0;
+    padding: 0 20px;
+    width: 70vw;
+    height: 80vh;
+    border: 2px, #ECDFCC;
+    border-style: inset;
+    backdrop-filter: blur(4px);
+    border-radius: 20px;
+}
+
+#header {
+    background: url(images/header.jpg);
+    background-size: cover;
+}
+
+
+.head-col-1 {
+    margin-top: 30px;
+    margin-left: 25px;
+} 
+
+.head-col-1 h1 {
+    font-size: 30px;
+    padding: 8px;
+    max-width: 400px;
+    text-indent: -240px;
+    text-align: justify;
+    line-height: 40px;
+    position: absolute;
+    right: 40px;
+}
+
+#about {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.9)0%, rgba(0, 0, 0, 0.4)100%), url(images/about.jpg);
+    background-size: cover;
+    color: #ECDFCC;
+}
+
+#about .row {
+    padding: 2%;
+    position: absolute;
+    bottom: 20px;
+}
+
+#about .row p {
+    font-size: 26px;
+}
+
+#skills {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7)0%, rgba(0, 0, 0, 0.4)100%), url(images/background.jpg);
+    background-size: cover;
+}
+
+#experience {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7)0%, rgba(0, 0, 0, 0.4)100%), url(images/background3.jpg);
+    background-size: cover;
+}
+
+#references {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7)0%, rgba(0, 0, 0, 0.4)100%), url(images/background2.jpg);
+    background-size: cover;
+}
+
+#contact {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7)0%, rgba(0, 0, 0, 0.4)100%), url(images/background4.jpg);
+    background-size: cover;
+}
+
+.container .row {
+    margin: 5%;
+}
+
+.container ul {
+    list-style: none;
+    margin: 10px 20px;
+}
+
+.container ul li {
+    color: #ECDFCC;
+    font-size: 18px;
+    padding: 1%;
+    line-height: 25px;
+}
+
+#contact p {
+    margin-top: 30px;
+    font-size: 30px;
+    align-items: center;
+}
+
+#contact p i {
+    color: #16423C;
+    margin-right: 15px;
+    font-size: 40px;
+}
+
+.social-icons {
+    margin-top: 30px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    font-size: 40px;
+    margin-right: 15px;
+    color: #ECDFCC;
+    display: inline-block;
+    transition: transform 0.3s;
+}
+
+.social-icons a:hover {
+    color: #16423C;
+    transform: scale(1.2);
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    margin-top: 10px;
+    background: rgba(0, 0, 0, 0.4), url(images/background.jpg);
+    backdrop-filter: blur(4px);
+}

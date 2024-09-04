@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5d4f05ccf9.js" crossorigin="anonymous"></script>
+    <title>Portfolio</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="images/logo.png">
+        </div>
+        <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#references">References</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main id="body">
+        <section id="header">
+            <div class="row">
+                <div class="head-col-1">
+                    <h1><span>Welcome</span> to my portfolio! I'm <span>STEPHEN</span> GABARDA, a passionate <span>BS Information Technology</span> Student. I bring a blend of creativity, technical skills, and strategic thinking to every project I undertake.</h1>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <div class="row">
+                <h1 id="sub-title">About Me</h1>
+                <p>My work is driven by a commitment to innovation and quality. I take pride in delivering solutions that not only meet but exceed expectations. My experiences have equipped me with a strong foundation in Information Technology, allowing me to approach challenges with a well-rounded perspective and deliver impactful results.</p>
+            </div>
+        </section>
+        <section id="skills">
+            <div class="container">
+                <div class="row">
+                    <h1 id="sub-title">My Skills</h1>
+                    <ul>
+                        <li><span>Basic Computer Repair & Troubleshooting</span><br>Proficient in diagnosing and fixing common hardware and software issues.</li>
+                        <li><span>Web Design</span><br>Experienced in creating and maintaining user-friendly, visually appealing websites.</li>
+                        <li><span>Microsoft 365 Proficiency</span><br> Skilled in using Microsoft 365 applications for effective document creation, communication, and collaboration.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="experience">
+            <div class="container">
+                <div class="row">
+                    <h1 id="sub-title">Experience</h1>
+                    <ul>
+                        <li><span>Computer Shop Administrator</span><br>Oversaw daily operations, managed inventory, and performed computer repairs.</li>
+                        <li><span>Student Assistant</span><br>Supported administrative tasks and facilitated communication between faculty and students.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="references">
+            <div class="container">
+                <div class="row">
+                    <h1 id="sub-title">References</h1>
+                    <ul>
+                        <li><span>Delailah Jabile</span><br>Teacher - Sibalom, Antique</li>
+                        <li><span>Ramylle Obusan</span><br>Nurse - Legazpi, Albay</li>
+                        <li><span>Christian Abogado</span><br>Engineer - Legazpi, Albay</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="container">
+                <div class="row">
+                    <h1 id="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-at"></i>stphngabarda@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>09973055763</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100093565184326&mibextid=LQQJ4d"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://github.com/Stphn2"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright © GABARDA 2024</p>
+    </footer>
+</body>
+<script>
+    const container = document.getElementById("main");
+
+    container.addEventListener("wheel", function (e) {
+        if (e.deltaY > 0) {
+        container.scrollLeft += 100;
+        e.preventDefault();
+
+        }
+        else {
+        container.scrollLeft -= 100;
+        e.preventDefault();
+        }
+    });
+</script>
+</html>
